@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Create on 2017-7-27 下午8:29
+  ~ FileName: tool_bar_layout.xml
+  ~ Author: Ren Yaowei
+  ~ Blog: http://www.renyaowei.top
+  ~ Email renyaowei@foxmail.com
+  -->
+
+<renyaowei.top.slidelayout.theme.ColorRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="?attr/colorPrimary"
+    android:layout_height="48dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:padding="12dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:layout_height="wrap_content" />
+
+</renyaowei.top.slidelayout.theme.ColorRelativeLayout>
